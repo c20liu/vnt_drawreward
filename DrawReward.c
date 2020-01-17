@@ -102,8 +102,6 @@ UNMUTABLE
 uint64 testRandom(uint32 exterSeed) { _getSeed(exterSeed); return _getRandom(); }
 
 //抽奖
-// (测试阶段)没有增加调用权限
-// (正式上线)增加只有owner有权限调用
 MUTABLE
 uint32 Draw(uint32 exterSeed)
 {
